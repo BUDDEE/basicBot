@@ -1,0 +1,26 @@
+bot.getStaff();
+/*
+[
+    {
+        username: 'XLeite',
+        status: 0,
+        fans: 3,
+        listenerPoints: 164,
+        language: 'pt',
+        avatarID: '2014hd08',
+        id: '3975806',
+        curatorPoints: 45621,
+        djPoints: 760000
+    }, {
+        username: 'Ninguem',
+        status: 0,
+        fans: 0,
+        listenerPoints: 46,
+        language: 'pt',
+        avatarID: 'bud01',
+        id: 'xxxxxxxxxxxxxxxxxxxxxxxx',
+        curatorPoints: 40,
+        djPoints: 0
+    }
+]
+*/
