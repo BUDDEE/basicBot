@@ -313,7 +313,7 @@
             }
         },
         room: {
-            name: null,
+            name: Barquinho,
             users: [],
             afkList: [],
             mutedUsers: [],
