@@ -1581,7 +1581,7 @@
                             var randomUser = Math.floor(Math.random() * crowd.length);
                             var randomBall = Math.floor(Math.random() * basicBot.settings.ball.length);
                             var randomSentence = Math.floor(Math.random() * 1);
-                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.ball[randomBall]}));
+                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: Sua resposta arrombado: basicBot.settings.ball[randomBall]}));
                      }
                 }
             },
@@ -1768,6 +1768,25 @@
                             }
                         }
                     }
+                }
+            },
+            
+            trollei: {
+                command: ['trollei'],
+                rank: 'user',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            var crowd = API.getUsers();
+                            var msg = chat.message;
+                            var argument = msg.substring(cmd.length + 1);
+                            var randomUser = Math.floor(Math.random() * crowd.length);
+                            var randomBall = Math.floor(Math.random() * basicBot.settings.ball.length);
+                            var randomSentence = Math.floor(Math.random() * 1);
+                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, Trollo}));
+                     }
                 }
             },
 
