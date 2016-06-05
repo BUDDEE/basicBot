@@ -182,7 +182,7 @@
     var basicBot = {
         version: "6.6.7",
         status: false,
-        name: "basicBot",
+        name: "Estuprador",
         loggedInID: null,
         scriptLink: "https://rawgit.com/B1G-B0SS/Exercito-Bot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -192,7 +192,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Estuprador",
             language: "portuguese",
             chatLink: "https://rawgit.com/BUDDEE/basicBot/master/lang/pt-BR.json",
             startupCap: 1, // 1-200
